@@ -1,11 +1,12 @@
 .app {
-  background-color: lightgrey;
+  background-color: lightgray;
   display: grid;
   place-items: center;
   height: 100vh;
+  width: 100vw;
 }
 .app-body {
-  background-color: white;
+  background-color: #f6f6f6;
   height: 90vh;
   width: 90vw;
   display: flex;
