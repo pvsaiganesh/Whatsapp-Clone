@@ -55,9 +55,7 @@ const Chat = () => {
   return (
     <div className="chat">
       <div className="chat__header">
-        <Avatar
-          src={`https://avatars.dicebear.com/api/big-ears/${roomId}.svg`}
-        />
+        <Avatar src={`https://api.dicebear.com/7.x/${roomId}/svg`} />
         <div className="chat__headerInfo">
           <h3>{roomName}</h3>
           <p>
