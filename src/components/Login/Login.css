@@ -6,16 +6,23 @@
   place-items: center;
 }
 .login__container {
-  padding: 100px;
+  padding: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   background-color: white;
+  width: 50%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .login__container > img {
   object-fit: contain;
   margin-bottom: 40px;
-  height: 100px;
+  width: 50%;
+  height: 50%;
+}
+.login-text {
+  font-weight: bold;
 }
 
 .login__container > button {
@@ -23,6 +30,8 @@
   text-transform: inherit !important;
   background-color: #0a8d48;
   color: white;
+  border-radius: 5px;
+  padding: 1rem;
 }
 .login__container > button:hover {
   background-color: #0a8d48;

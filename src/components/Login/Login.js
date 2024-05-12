@@ -23,7 +23,7 @@ const Login = () => {
           alt=""
         />
         <div className="login__text">
-          <h1>Sign in to WhatsApp</h1>
+          <h3>WhatsApp Clone</h3>
         </div>
         <Button type="submit" onClick={signIn}>
           Sign in with Google
